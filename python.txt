@@ -1,4 +1,4 @@
-Python (MLP)
+Python (MLP) 
 python: high level, interpreted ,object oriented programming ,indented, dynamically is called python
 
 features:
@@ -16,11 +16,11 @@ Applications of python:
 4.ai
 5.cyber security
 6.graphics
-7.iot
+7.iot 
 8.Automation.
 9.desktop app development...
 
-===========================================================================================================================================================================================
+====================================================================================================================================================================================================================================================================================
 
 COMMENTS:
 They are part of a code but they wont consider in a execution time.
@@ -74,14 +74,11 @@ To write code in single line
 INPUT AND OUTPUT FUNCTION:
 	INPUT FUNCTION  : input()
 	OUTPUT FUNCTION : print()
-Assignment=============================================================================================================================================================================
-Write a program to read employee id, employee name, employee phone num and print the details
-
-===================================================================================
-MEMBERSHIP OPERATOR:
-  IN,NOT IN
+MEMBERSHIP OPERATOR:  
+IN,NOT IN
 
 BITWISE OPERATOR
+
 
 
 CONDITIONAL OPERATOR:
@@ -122,8 +119,94 @@ elif(condition3);
 	statement3
 else:
 	statements
+===========================================================================================
+OPERATORS:
+
+ARITHMETIC OPERATORS:
++ , - , / , % , // , **
 
 
+LOGICAL OPERATOR
+
+0 0 0 0
+0 1 0 1
+1 0 0 1
+1 1 1 1
+
+ASSIGNMENT OPERATOR:
+= += -= /= %= //= **=
+a=
+a += 3 
+ a = a+3
+ = 8
+
+BITWISE OPERATOR:
+
+& | ~ >> <<
+
+=========================================================================================
+RIGHT SHFT AND LEFT SHIFT:
+
+1101
+ 1101
+  1101=3
+=========================================================================================
+  1101
+ 11010
+110100=52
+=========================================================================================
+NESTED CONDITION:
+SYNTAX:
+
+if(condn1):(#outer if)
+   if(condn2):(#inner if)
+  else:
+   statements of inner else:
+else:
+  statement of outer else:
+=========================================================================================
+LOOP:
+
+LOOPS IN PYTHON ARE USED TO EXECUTE A BLOCK OF CODE REPEATEDLY UNTILL A CERTAIN CONDITION IS MET.
+PYTHON MAINLY PROVIDES TWO TYPES:
+1.For loop
+2.While loop.
+3.Nested loop
+	*for loop inside for loop
+	*for loop inside while loop
+	*while loop inside while loop
+	*while loop inside for loop
+
+FOR LOOP
+1)for loop with sequence
+
+syntax:
+for variable in sequence:
+	statements
+string, tuple,
+
+******************for i in sub:
+			print(i)    
+****enumerate is a function used to print both value and position     
+
+2)for loop with range () function
+
+for variable in range():
+	statement
+
+----Initialization
+---condition
+----incrementation/decrementation
+
+range(start value, stop value, step size)
+
+In default we have start value is 0
+		step size is 1
+
+To print 1 to 10
+range(1,11,1)
+(i=1;i<11;i+)
+i=1.2.3.4.5.6.7.8.9.10
 
 
 
